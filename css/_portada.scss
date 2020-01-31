@@ -1,0 +1,18 @@
+/*Aquí inicia la sección de portad*/
+.portada img{
+   width: 100%;
+    height: 70vh; 
+}
+
+.imagenPortada{
+position: relative;
+display: flex;
+justify-content: center;
+}
+
+.textoPortada{
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+
+}
