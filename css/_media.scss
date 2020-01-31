@@ -1,12 +1,12 @@
 @media screen and (max-width: 480px) {
     .portada img{
         width: 100%;
-         height: 65vh; 
+         height: 45vh; 
+     }
+     header .imagenheader{
+         display: none;
      }
   }
   @media screen and (min-width: 481px) {
-    .textoPortada{
-        bottom: 90px;
-    
-    }
+
   }

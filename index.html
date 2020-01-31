@@ -6,12 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
+    
+    <!--Aquí estoy añadiendo código para mi botón de mesenger-->
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "116728216545654", // Facebook page ID
+            call_to_action: "Hola, estoy para servirte", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+<!--Aquí estoy añadiendo código para mi botón de mesenger-->
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark ">
-            <a class="navbar-brand pr-0 mr-0" href="#"><img src="img/icono.png" width="5%" alt="icono"></a>
+            <a class="navbar-brand pr-0 mr-0" href="#"><div class="imagenheader"><img src="img/icono.png" width="5%" alt="icono"></div></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,16 +65,36 @@
           </nav>
           
     </header>
+
 <!--Aquí inicia la sección de portada-->
 <section id="portada" class="portada">
-    <div class="imagenPortada"><img src="img/portada.jpg" alt="portada">
-    <div class="textoPortada"><p>Quién no está en internet, Simplemente no existe. Bill Gates</p>
-        <button type="button" class="btn btn-success">85485463</button>
-        <button type="button" class="btn btn-secondary">info@gmail.com</button>
-        <button type="button" class="btn btn-primary">85485463</button>
-    </div>
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img src="img/portada3.jpg" alt="beneficios">
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-3 pt-4 pl-5 pr-5 textoPortada">
+                <h4>Quién no está en internet, Simplemente no existe. Bill Gates</h4>
+                <p>Diseñamos y desarrollamos páginas web para pequeñas y medianas empresas.
+                    Nos caracterizamos por algo que llamamos la regla de la CRA, que significa
+                    Calidad, Rapidez y Accesibilidad para Todo el mundo. Tenemos una amplia 
+                    gama de clientes satisfechos que han transformado sus negocios gracias a una presencia
+                    digital. No lo pienses más y aplasta a la competencia con tu página web.
+                </p>
+               <a  href="https://wa.me/50233381776?text=Me%20gustaría%20tener%20más%20información%20sobre%20los%20servicios%20de%20tutorías" target="_blank"><button type="button" class="btn btn-success"><i class="fa fa-whatsapp" aria-hidden="true"></i> 85485463</button></a> <br>
+              
+               <a href="tel:+50233381776" target="_blank"> <button type="button" class="btn btn-primary"> <i class="fa fa-phone-square" aria-hidden="true"></i> 85485463</button></a><br>
 
+               <a href="mailto:info@sthartutorias.com?Subject=Interesad@%20en%20las%20tutorias" target="_blank"> <button type="button" class="btn btn-secondary"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@gmail.com</button></a><br>
+               
+                
+               
+            </div>
+        </div>
     </div>
+   
+
+ 
     
     
     
@@ -59,7 +104,16 @@
     
     <!--Aquí termina la sección de portada-->
     
-    
+    <!--Aquí inicia la sección de descuento-->
+    <section class="temporizador">
+    <h5>Aprovecha nuestra oferta del 15% de descuento. Termina en:</h5>
+    <div id="clock" ></div>
+    <script src="javascript/temporizador.js"></script>
+    </section>
+
+
+    <!--Aquí termina la sección de descuento-->
+
     <!--Aquí inicia la sección sobre nosotros-->
     <section class="beneficios">
         <div class="fluid-container">
@@ -134,6 +188,10 @@
 
         </section>
 
+        
+        <footer>
+            <p>© Todos los Derechos Reservados</p>
+        </footer>
 
          <!--Aquí termina la sección de redes sociales y contacto-->
 
@@ -145,3 +203,6 @@
 <!--Aquí estan los enlaces para que funcione bootstrap-->
 </body>
 </html>
+
+
+
