@@ -44,20 +44,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Portada</a>
+                  <a class="nav-link" href="#beneficios">Beneficios</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                    <a class="nav-link" href="#somos">¿Quienes Somos?</a>
                 </li>
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Beneficios</a>
+                    <a class="nav-link" href="#contacto">Contáctanos</a>
                 </li>
+    
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Precios</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Redes Sociales</a>
+                    <a class="nav-link" href="#redes">Redes Sociales</a>
                 </li>
               </ul>
 
@@ -115,7 +113,7 @@
     <!--Aquí termina la sección de descuento-->
 
     <!--Aquí inicia la sección sobre nosotros-->
-    <section class="beneficios">
+    <section class="beneficios" id="beneficios">
         <div class="fluid-container">
             <div class="row mr-0 ml-0">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -140,7 +138,7 @@
         <section class="contacto">
             <div class="fluid-container">
                 <div class="row mr-0 ml-0">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4" id="somos">
                      <h4>¿Quienes Somos?</h4>
                         <p>Creemos fuertemente que las pequeñas y medianas empresas deben de 
                             tener una fuerte presencia en internet para ser competitivas, lamentablemente
@@ -151,7 +149,7 @@
                             Puedes Contactarnos para resolver cualquier duda que pueda surgirte, tenemos los mejores precios para tí.
                         </p>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4" id="contacto">
                        <!--Aquí inicia el formulario-->
                     <h4>Contáctanos</h4>
                     <form method="post">
@@ -189,7 +187,7 @@
                      
                      <!--Aquí termina la parte de datos-->
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4" id="redes">
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FP%25C3%25A1ginas-Para-Todo-el-Mundo-116728216545654%2F&tabs=timeline&width=340&height=414&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2611187799113986" width="340" height="414" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
