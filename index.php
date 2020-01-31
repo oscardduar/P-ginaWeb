@@ -69,23 +69,23 @@
 <!--Aquí inicia la sección de portada-->
 <section id="portada" class="portada">
     <div class="fluid-container">
-        <div class="row">
+        <div class="row mr-0 ml-0">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <img src="img/portada3.jpg" alt="beneficios">
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-3 pt-4 pl-5 pr-5 textoPortada">
-                <h4>Quién no está en internet, Simplemente no existe. Bill Gates</h4>
+                <h4>Páginas Para Todo el Mundo</h4>
                 <p>Diseñamos y desarrollamos páginas web para pequeñas y medianas empresas.
                     Nos caracterizamos por algo que llamamos la regla de la CRA, que significa
                     Calidad, Rapidez y Accesibilidad para Todo el mundo. Tenemos una amplia 
                     gama de clientes satisfechos que han transformado sus negocios gracias a una presencia
                     digital. No lo pienses más y aplasta a la competencia con tu página web.
                 </p>
-               <a  href="https://wa.me/50233381776?text=Me%20gustaría%20tener%20más%20información%20sobre%20los%20servicios%20de%20tutorías" target="_blank"><button type="button" class="btn btn-success"><i class="fa fa-whatsapp" aria-hidden="true"></i> 85485463</button></a> <br>
+               <a  href="https://wa.me/50233381776?text=Me%20gustaría%20tener%20más%20información%20sobre%20los%20servicios%20de%20Páginas%20Web" target="_blank"><button type="button" class="btn btn-success"><i class="fa fa-whatsapp" aria-hidden="true"></i> +502 3338 1776</button></a> <br>
               
-               <a href="tel:+50233381776" target="_blank"> <button type="button" class="btn btn-primary"> <i class="fa fa-phone-square" aria-hidden="true"></i> 85485463</button></a><br>
+               <a href="tel:+50233381776" target="_blank"> <button type="button" class="btn btn-primary"> <i class="fa fa-phone-square" aria-hidden="true"></i>+502 3338 1776</button></a><br>
 
-               <a href="mailto:info@sthartutorias.com?Subject=Interesad@%20en%20las%20tutorias" target="_blank"> <button type="button" class="btn btn-secondary"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@gmail.com</button></a><br>
+               <a href="mailto:paginasparatodoelmundo@gmail.com?Subject=Interesad@%20en%20las%20Páginas" target="_blank"> <button type="button" class="btn btn-secondary correo"><i class="fa fa-envelope-o" aria-hidden="true"></i> paginasparatodoelmundo@gmail.com</button></a><br>
                
                 
                
@@ -106,7 +106,7 @@
     
     <!--Aquí inicia la sección de descuento-->
     <section class="temporizador">
-    <h5>Aprovecha nuestra oferta del 15% de descuento. Termina en:</h5>
+    <h5>Páginas desde Q850. Antes:<span>Q1350</span>. Esta oferta termina en:</h5>
     <div id="clock" ></div>
     <script src="javascript/temporizador.js"></script>
     </section>
@@ -119,14 +119,14 @@
         <div class="fluid-container">
             <div class="row mr-0 ml-0">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="img/beneficios7.png" alt="beneficios">
+                    <img src="img/beneficios4.jpg" alt="beneficios">
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-3 pt-4">
-                    <h4>Optimizada para móviles</h4>
+                    <h5>Optimizada para móviles</h5>
                     <p>La desarrollamos para que sea vista perfectamente y con mucha comodidad desde móviles</p>
-                    <h4>Velocidad de Carga</h4>
+                    <h5>Velocidad de Carga</h5>
                     <p>Muchos usuarios de internet abandonan una página debido a la lentitud de carga, nosotros te ahorramos este problema<p>
-                    <h4>Precios Accesibles</h4>
+                    <h5>Precios Accesibles</h5>
                     <p>Estamos orientados a las pequeñas y medianas empresas, por lo que cuidamos mucho tu presupuesto</p>
                 </div>
             </div>
@@ -141,7 +141,7 @@
             <div class="fluid-container">
                 <div class="row mr-0 ml-0">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4">
-                     <h3>¿Quienes Somos?</h3>
+                     <h4>¿Quienes Somos?</h4>
                         <p>Creemos fuertemente que las pequeñas y medianas empresas deben de 
                             tener una fuerte presencia en internet para ser competitivas, lamentablemente
                             hemos observado que muchas veces el presupuesto de estos negocios que aún estan 
@@ -153,30 +153,41 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4">
                        <!--Aquí inicia el formulario-->
-                    <h2>Formulario de Contacto</h2>
-                    <form>
+                    <h4>Contáctanos</h4>
+                    <form method="post">
                      <div class="form-group">
           
-                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre" name="name" required="">
           
                     </div>
                     <div class="form-group">
            
-                            <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mensaje">
+                            <input type="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mensaje" name="msg" required="">
             
                     </div>
                     <div class="form-group">
            
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Telefono">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Telefono" name="phone" required="">
             
                     </div>
      
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary" name="enviar">Enviar</button>
                     </form>
-    
-    
-   <!--Aquí termina el formulario-->
- 
+                
+
+                    <!--Aquí termina el formulario-->
+                    <!--Aquí empieza la parte de datos-->
+                    <a  href="https://wa.me/50233381776?text=Me%20gustaría%20tener%20más%20información%20sobre%20los%20servicios%20de%20Páginas%20Web" target="_blank"><button type="button" class="btn btn-success"><i class="fa fa-whatsapp" aria-hidden="true"></i> +502 3338 1776</button></a> <br>
+              
+                    <a href="tel:+50233381776" target="_blank"> <button type="button" class="btn btn-primary"> <i class="fa fa-phone-square" aria-hidden="true"></i>+502 3338 1776</button></a><br>
+     
+                    <a href="mailto:paginasparatodoelmundo@gmail.com?Subject=Interesad@%20en%20las%20Páginas" target="_blank"> <button type="button" class="btn btn-secondary correo"><i class="fa fa-envelope-o" aria-hidden="true"></i> paginasparatodoelmundo@gmail.com</button></a><br>
+                    
+                     <?php
+					include("correo.php");
+					?>
+                     
+                     <!--Aquí termina la parte de datos-->
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3 pt-4">
                         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FP%25C3%25A1ginas-Para-Todo-el-Mundo-116728216545654%2F&tabs=timeline&width=340&height=414&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2611187799113986" width="340" height="414" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
@@ -203,6 +214,3 @@
 <!--Aquí estan los enlaces para que funcione bootstrap-->
 </body>
 </html>
-
-
-

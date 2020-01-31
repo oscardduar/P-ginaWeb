@@ -24,6 +24,41 @@ footer p {
   margin: 2.5px;
 }
 
+.portada img {
+  position: relative;
+  -webkit-animation-name: example;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+/* Standard syntax */
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 35vh;
+  }
+}
 @media screen and (max-width: 480px) {
   .portada img {
     width: 100%;
@@ -31,6 +66,10 @@ footer p {
   }
 
   header .imagenheader {
+    display: none;
+  }
+
+  .portada .correo {
     display: none;
   }
 }
@@ -63,4 +102,12 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+}
+.temporizador span {
+  text-decoration: line-through;
+}
+
+/*Aquí empieza la parte de contáctanos*/
+.contacto button {
+  margin: 2.5px;
 }
